@@ -15,10 +15,7 @@
   "result": {
     "id": "minecraft:painting",
     "components": {
-      "minecraft:entity_data": {
-        "id": "minecraft:painting",
-        "variant": "minecraft:creebet"
-      }
+      "minecraft:painting/variant":"minecraft:creebet"
     }
   }
 }

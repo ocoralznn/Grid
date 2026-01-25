@@ -11,10 +11,7 @@
   "result": {
     "id": "minecraft:painting",
     "components": {
-      "minecraft:entity_data": {
-        "id": "minecraft:painting",
-        "variant": "minecraft:plant"
-      }
+      "minecraft:painting/variant":"minecraft:plant"
     }
   }
 }

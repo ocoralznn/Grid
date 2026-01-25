@@ -6,12 +6,17 @@
     "id": "minecraft:iron_trapdoor",
     "components": {
       "minecraft:lore": [
-        "{'color':'dark_gray', 'fallback':'Vertical', 'italic':false, 'translate':'block_state.minecraft.iron_trapdoor.open'}"
+        {
+          "color":"dark_gray",
+          "fallback":"Open",
+          "italic":false,
+          "translate":"block_state.grid.iron_trapdoor.open"
+        }
       ],
       "minecraft:block_state": {
-        "open": "true",
+        "open": "true"
+      },
       "minecraft:enchantment_glint_override": true
-      }
     }
   }
 }

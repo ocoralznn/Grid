@@ -10,10 +10,7 @@
   "result": {
     "id": "minecraft:painting",
     "components": {
-      "minecraft:entity_data": {
-        "id": "minecraft:painting",
-        "variant": "minecraft:wasteland"
-      }
+      "minecraft:painting/variant":"minecraft:wasteland"
     }
   }
 }

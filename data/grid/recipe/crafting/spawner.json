@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": "minecraft:end_crystal",
-    "C": "minecraft:chain",
+    "C": "minecraft:iron_chain",
     "B": "minecraft:blaze_powder",
     "I": "minecraft:iron_bars"
   },

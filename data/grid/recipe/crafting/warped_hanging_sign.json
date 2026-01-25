@@ -4,7 +4,7 @@
   "group": "hanging_sings",
   "key": {
     "#": "minecraft:stripped_warped_stem",
-    "C": "minecraft:chain"
+    "C": "minecraft:iron_chain"
   },
   "pattern": [
     "C C",

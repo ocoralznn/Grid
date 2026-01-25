@@ -15,10 +15,7 @@
   "result": {
     "id": "minecraft:painting",
     "components": {
-      "minecraft:entity_data": {
-        "id": "minecraft:painting",
-        "variant": "minecraft:burning_skull"
-      }
+      "minecraft:painting/variant":"minecraft:burning_skull"
     }
   }
 }

@@ -4,7 +4,7 @@
   "group": "hanging_sings",
   "key": {
     "#": "minecraft:stripped_acacia_log",
-    "C": "minecraft:chain"
+    "C": "minecraft:iron_chain"
   },
   "pattern": [
     "C C",

@@ -3,9 +3,7 @@
     "category": "redstone",
     "group": "wooden_doors",
     "key": {
-      "#": {
-        "item": "minecraft:spruce_planks"
-      }
+      "#": "minecraft:spruce_planks"
     },
     "pattern": [
       "###",
@@ -15,3 +13,4 @@
       "count": 32,
       "id": "minecraft:spruce_trapdoor"
   }
+}
