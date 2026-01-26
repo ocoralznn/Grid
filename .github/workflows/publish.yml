@@ -19,9 +19,11 @@ jobs:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: "uOme8XHr"
           version: ${{ github.event.release.tag_name }}
-          name: "Grid ${{ github.event.release.tag_name }}"
+          name: "${{ github.event.release.release_name }}"
           files: "Grid.zip"
           loaders: "datapack" # Specifically mark as a datapack
-          game-versions: "26.1-snapshot-4" # Update based on supported 2026 versions
-          changelog: ${{ github.release.description }}
+          game-versions: |- # Update based on supported 2026 versions
+            26.1-snapshot-3
+            26.1-snapshot-4
+          changelog: ${{ github.release.body }}
           channel: "release"
