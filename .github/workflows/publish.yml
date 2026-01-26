@@ -22,5 +22,6 @@ jobs:
           name: "Grid ${{ github.event.release.tag_name }}"
           files: "Grid.zip"
           loaders: "datapack" # Specifically mark as a datapack
-          game-versions: "26.1-snapshot-3, 26.1-snapshot-4" # Update based on supported 2026 versions
-          release-type: "release"
+          game-versions: "26.1-snapshot-4" # Update based on supported 2026 versions
+          changelog: ${{ github.release.description }}
+          channel: "release"
