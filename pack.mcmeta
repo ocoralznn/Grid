@@ -33,6 +33,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/acacia_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/acacia_stairs.json"
       },
       {
@@ -61,6 +65,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/bamboo_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/bamboo_stairs.json"
       },
       {
@@ -74,6 +82,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/birch_hanging_sign.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/birch_shelf.json"
       },
       {
         "namespace": "minecraft",
@@ -133,6 +145,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/cherry_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/cherry_stairs.json"
       },
       {
@@ -146,6 +162,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/cobblestone_stairs.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/copper_bars.json"
       },
       {
         "namespace": "minecraft",
@@ -170,6 +190,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/crimson_hanging_sign.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/crimson_shelf.json"
       },
       {
         "namespace": "minecraft",
@@ -198,6 +222,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/dark_oak_hanging_sign.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/dark_oak_shelf.json"
       },
       {
         "namespace": "minecraft",
@@ -357,6 +385,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/jungle_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/jungle_stairs.json"
       },
       {
@@ -397,6 +429,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/mangrove_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/mangrove_stairs.json"
       },
       {
@@ -433,6 +469,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/oak_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/oak_stairs.json"
       },
       {
@@ -462,6 +502,26 @@
       {
         "namespace": "minecraft",
         "path": "recipe/oxidized_cut_copper_stairs.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/pale_oak_door.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/pale_oak_hanging_sign.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/pale_oak_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/pale_oak_stairs.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/pale_oak_trapdoor.json"
       },
       {
         "namespace": "minecraft",
@@ -581,6 +641,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/spruce_shelf.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/spruce_stairs.json"
       },
       {
@@ -646,6 +710,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/warped_hanging_sign.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/warped_shelf.json"
       },
       {
         "namespace": "minecraft",

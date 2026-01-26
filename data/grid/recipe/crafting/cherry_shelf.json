@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shelves",
+  "key": {
+    "#": [
+        "minecraft:stripped_cherry_log",
+        "minecraft:stripped_cherry_wood"
+    ]
+  },
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "result": {
+    "count": 18,
+    "id": "minecraft:cherry_shelf"
+  }
+}

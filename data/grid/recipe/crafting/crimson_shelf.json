@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shelves",
+  "key": {
+    "#": [
+        "minecraft:stripped_crimson_stem",
+        "minecraft:stripped_crimson_hyphae"
+    ]
+  },
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "result": {
+    "count": 18,
+    "id": "minecraft:crimson_shelf"
+  }
+}

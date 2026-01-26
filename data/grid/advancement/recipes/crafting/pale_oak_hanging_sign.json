@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "has_stripped_pale_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_pale_oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_chain": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chain"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "grid:crafting/pale_oak_hanging_sign"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_pale_oak_log",
+      "has_iron_chain"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "grid:crafting/pale_oak_hanging_sign"
+    ]
+  }
+}

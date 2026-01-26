@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "copper_bars",
+  "group": "shelves",
   "key": {
-    "#": "minecraft:copper_ingot"
+    "#": [
+        "minecraft:stripped_bamboo_block"
+    ]
   },
   "pattern": [
     "###",
-    "# #",
+    "   ",
     "###"
   ],
   "result": {
-    "id": "minecraft:copper_bars",
-    "count": 6
+    "count": 18,
+    "id": "minecraft:bamboo_shelf"
   }
 }
