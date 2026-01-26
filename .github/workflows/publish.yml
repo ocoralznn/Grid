@@ -14,7 +14,7 @@ jobs:
         run: zip -r Grid.zip . -x ".github/*" ".git/*" "*.yml" "README.md" # Package your files into a .zip
 
       - name: Upload to Modrinth
-        uses: modrinth/modrinth-publish@v2 # Use the official or a trusted community action
+        uses: cloudnode-pro/modrinth-publish@v2 # Use the official or a trusted community action
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project-id: "uOme8XHr"
