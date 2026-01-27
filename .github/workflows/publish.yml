@@ -11,19 +11,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Zip Datapack
-        run: zip -r Grid.zip . -x ".github/*" ".git/*" "*.yml" "README.md" # Package your files into a .zip
+        run: zip -r Grid.zip . -x ".github/*" ".git/*" "*.yml" "README.md" # Package files into .zip
 
       - name: Upload to Modrinth
-        uses: cloudnode-pro/modrinth-publish@v2 # Use the official or a trusted community action
+        uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: "uOme8XHr"
+          vname: ${{ github.event.release.name }}
           version: ${{ github.event.release.tag_name }}
-          name: "${{ github.event.release.release_name }}"
+          changelog: ${{ github.event.release.body }}
           files: "Grid.zip"
-          loaders: "datapack" # Specifically mark as a datapack
-          game-versions: |- # Update based on supported 2026 versions
+          loaders: "datapack"
+          game-versions: |-
             26.1-snapshot-3
             26.1-snapshot-4
-          changelog: ${{ github.release.body }}
           channel: "release"
