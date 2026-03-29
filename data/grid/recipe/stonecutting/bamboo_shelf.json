@@ -1,6 +1,7 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": [
+        "minecraft:bamboo_block",
         "minecraft:stripped_bamboo_block"
     ],
     "result": {
