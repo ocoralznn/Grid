@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:bow",
     "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.grid.wob",
         "fallback": "woB"
       }
