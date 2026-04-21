@@ -181,6 +181,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/copper_grate_from_copper_block_stonecutting.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/copper_trapdoor.json"
       },
       {
@@ -290,6 +294,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/exposed_copper_grate.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/exposed_copper_grate_from_exposed_copper_stonecutting.json"
       },
       {
         "namespace": "minecraft",
@@ -494,6 +502,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/oxidized_copper_grate.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/oxidized_copper_grate_from_oxidized_copper_stonecutting.json"
       },
       {
         "namespace": "minecraft",
@@ -737,6 +749,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/waxed_copper_grate_from_waxed_copper_block_stonecutting.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/waxed_copper_trapdoor.json"
       },
       {
@@ -754,6 +770,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/waxed_exposed_copper_grate.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting.json"
       },
       {
         "namespace": "minecraft",
@@ -777,6 +797,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/waxed_oxidized_copper_trapdoor.json"
       },
       {
@@ -797,6 +821,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/waxed_weathered_copper_trapdoor.json"
       },
       {
@@ -814,6 +842,10 @@
       {
         "namespace": "minecraft",
         "path": "recipe/weathered_copper_grate.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/weathered_copper_grate_from_weathered_copper_stonecutting.json"
       },
       {
         "namespace": "minecraft",
