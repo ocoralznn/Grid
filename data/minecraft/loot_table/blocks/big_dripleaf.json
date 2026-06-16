@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:big_dripleaf",
+					"conditions": [
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": "minecraft:shears"
+									}
+								},
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:small_dripleaf",
+					"conditions": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"items": "minecraft:shears"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantments": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

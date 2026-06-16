@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:stick"
+    },
+    "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true
+      },
+      "lore": [
+        {
+            "translate": "effect.minecraft.invisibility",
+            "color": "dark_gray",
+            "italic": false
+        }
+      ],
+      "enchantment_glint_override": true
+    }
+  }
+}
