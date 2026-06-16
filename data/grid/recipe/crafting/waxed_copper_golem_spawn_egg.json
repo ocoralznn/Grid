@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "group": "copper_golem_spawn_egg",
+    "pattern": [
+        "W",
+        "C"
+    ],
+    "key": {
+        "W": "minecraft:waxed_lightning_rod",
+        "C": "minecraft:carved_pumpkin"
+    },
+    "result": {
+    "id": "minecraft:copper_golem_spawn_egg",
+    "components": {
+      "item_model": "minecraft:waxed_copper_golem_statue",
+      "item_name": {
+        "translate": "entity.minecraft.copper_golem"
+      },
+      "enchantment_glint_override": true,
+      "entity_data": {
+        "id": "minecraft:copper_golem",
+        "weather_state": "unaffected",
+        "next_weather_age": -2
+      }
+    }
+  }
+}

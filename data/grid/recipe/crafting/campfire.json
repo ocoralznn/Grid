@@ -16,7 +16,14 @@
     "components": {
       "minecraft:block_state": {
         "lit": "false"
-      }
+      },
+      "lore": [
+        {
+            "translate": "subtitles.block.fire.extinguish",
+            "color": "dark_gray",
+            "italic": false
+        }
+      ]
     }
   }
 }

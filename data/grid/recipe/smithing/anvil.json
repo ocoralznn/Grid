@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": [
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil"
+    ],
+    "addition": "minecraft:iron_block",
+    "result": "minecraft:anvil"
+}

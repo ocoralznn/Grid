@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "soul_campfire",
-  "key": {
-    "S": "#minecraft:flammable_ingredients",
-    "F": "#minecraft:soul_fire_base_blocks",
-    "W": "#minecraft:logs"
-  },
-  "pattern": [
-    " S ",
-    "SFS",
-    "WWW"
-  ],
-  "result": {
+    "type": "crafting_shaped",
+    "category": "misc",
+    "group": "soul_campfire",
+    "pattern": [
+        "C",
+        "S"
+    ],
+    "key": {
+        "C": "minecraft:campfire",
+        "S": "minecraft:soul_soil"
+    },
+    "result": {
     "id": "minecraft:soul_campfire",
     "components": {
       "minecraft:block_state": {
