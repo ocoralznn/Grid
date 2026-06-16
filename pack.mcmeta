@@ -1,25 +1,32 @@
 {
 	"pack": {
-		"min_format": [107, 0],
-    "max_format": [107, 0],
+		"min_format": [101, 1],
+		"max_format": [107, 1],
 		"description": [
-      {
-        "text":"Grid",
-        "color":"#DD8D41"
-      },
-      {
-        "text":" | ",
-        "color":"dark_gray"
-      },
-      {
-        "text":"v",
-        "color":"white"
-      },
-      {
-        "text":"2.0.4",
-        "color":"white"
-      }
-    ]
+			{
+				"text":"ALIGN TO THE GRID",
+				"color":"#FF960C"
+			},
+			"\n",
+			{
+				"text":"ɢʀɪᴅ",
+				"color":"dark_gray"
+			},
+			" ",
+			{
+				"text":"🛠",
+				"color":"gray"
+			},
+			" ",
+			{
+				"text":"v",
+				"color":"dark_gray"
+			},
+			{
+				"text":"2.1.1",
+				"color":"dark_gray"
+			}
+		]
 	},
 	"filter": {
     "block": [
