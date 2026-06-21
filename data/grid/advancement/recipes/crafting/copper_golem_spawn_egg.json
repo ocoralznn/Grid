@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "has_lightning_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lightning_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_carved_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carved_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "grid:crafting/copper_golem_spawn_egg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lightning_rod",
+      "has_carved_pumpkin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "grid:crafting/copper_golem_spawn_egg"
+    ]
+  }
+}

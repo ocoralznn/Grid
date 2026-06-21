@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_flint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "grid:crafting/gravel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flint"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "grid:crafting/gravel"
+    ]
+  }
+}

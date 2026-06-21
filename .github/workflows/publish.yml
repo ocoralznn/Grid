@@ -10,6 +10,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Update pack version
+        run: |
+          jq --arg version "${{ github.event.release.tag_name }}" '.pack.description[7].text = $version' pack.mcmeta > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
+
       - name: Zip Datapack
         run: zip -r Grid-DP_v${{ github.event.release.tag_name }}.zip . -x ".github/*" ".git/*" "*.yml" "README.md" # Package files into .zip
 
