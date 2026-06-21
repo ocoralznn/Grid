@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "has_campfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_soil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_soil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "grid:crafting/soul_campfire_from_campfire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_campfire",
+      "has_soul_soil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "grid:crafting/soul_campfire_from_campfire"
+    ]
+  }
+}

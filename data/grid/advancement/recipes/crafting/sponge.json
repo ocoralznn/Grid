@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "has_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_potent_sulfur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potent_sulfur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "grid:crafting/sponge"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_string",
+      "has_potent_sulfur"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "grid:crafting/sponge"
+    ]
+  }
+}
