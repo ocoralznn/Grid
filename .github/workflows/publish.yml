@@ -36,7 +36,7 @@ jobs:
           curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
             -H "Content-Type: application/json" \
             -d "$(jq -n \
-              --arg body ${{ github.event.release.body }} \
+              --arg body "${{ github.event.release.body }}\n\n-# [Contribute](https://github.com/ocoralznn/grid) · [Report a bug](https://github.com/ocoralznn/grid/issues)" \
               --arg name "${{ github.event.release.name }}" \
               --arg tag "${{ github.event.release.tag_name }}" \
               '{
@@ -47,7 +47,7 @@ jobs:
                     },
                     "title": $tag,
                     "color": 16750092,
-                    "description": "$body\n\n-# [Contribute](https://github.com/ocoralznn/grid) · [Report a bug](https://github.com/ocoralznn/grid/issues)",
+                    "description": $body,
                     "footer": {
                       "text": "Presented to YOU",
                       "icon_url": "https://raw.githubusercontent.com/ChoirStudios/ChoirStudios.github.io/refs/heads/main/assets/logo.png"
