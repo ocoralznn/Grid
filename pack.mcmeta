@@ -704,6 +704,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/tnt.json"
+      }
+      {
+        "namespace": "minecraft",
         "path": "recipe/torch.json"
       },
       {
