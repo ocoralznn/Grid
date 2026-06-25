@@ -36,8 +36,8 @@ jobs:
           curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
             -H "Content-Type: application/json" \
             -d "$(jq -n \
-              --arg body "${{ github.event.release.body }}
-              # [Download](https://modrinth.com/datapack/grid-from-choir/versions)
+              --arg body "${{ github.event.release.body }} \n
+              # [Download](https://modrinth.com/datapack/grid-from-choir/versions) \n
               [Contribute](https://github.com/ocoralznn/grid) · [Report a bug](https://github.com/ocoralznn/grid/issues)" \
               --arg name "${{ github.event.release.name }}" \
               --arg tag "${{ github.event.release.tag_name }}" \
